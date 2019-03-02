@@ -38,7 +38,7 @@ function deepestChild(){
     return null
   }
 
-find(newArray, n => (typeof n === 'string'));*/
+find(newArray, n => (typeof n === 'string'));
 
 }
 
