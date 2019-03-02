@@ -13,7 +13,7 @@ function nestedTarget(){
 
 function deepestChild(){
 //  const collections = [ [ [ [ [ ["f"]]]]]]
-var newArray = document.querySelector("#grand-node");
+/*var newArray = document.querySelector("#grand-node");
 
 
   function find(array, criteriaFn) {
@@ -39,7 +39,10 @@ var newArray = document.querySelector("#grand-node");
     return null
   }
 
-find(newArray, n => (typeof n === 'string'));
+find(newArray, n => (typeof n === 'string'));*/
+
+var newArray = document.querySelector("#grand-node").innerHTML;
+document.getElementById("hi").innerHTML = newArray;
 
 }
 //
