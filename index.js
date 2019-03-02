@@ -15,7 +15,7 @@ function deepestChild(){
   var newArray = document.querySelector("#grand-node").innerHTML;
 
 
-/*  function find(array, criteriaFn) {
+  function find(array, criteriaFn) {
 
     let current = array
     let next = []
@@ -40,9 +40,8 @@ function deepestChild(){
 
 find(newArray, n => (typeof n === 'string'));*/
 
-return newArray;
 }
-//
+
 
 
 function increaseRankBy(n) {
